@@ -154,7 +154,7 @@ const testimonials = [
     name: "Ali Saadoun",
     designation: "Software Engineer",
     company: "Capgemini TS Maroc",
-    image: "public/assets/ali.jpg",
+    image: "/assets/ali.jpg",
   },
   {
     testimonial:
@@ -162,7 +162,7 @@ const testimonials = [
     name: "Reda Badouan",
     designation: "Resource Manager Talent Unit ",
     company: "Capgemini TS Maroc",
-    image: "public/assets/reda.jpg",
+    image: "/assets/reda.jpg",
   },
 ];
 

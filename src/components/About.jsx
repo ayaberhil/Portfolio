@@ -9,22 +9,22 @@ import { fadeIn, textVariant } from "../utils/motion";
 const certifications = [
   {
     title: "Salesforce Certified AI Associate",
-    icon: "public/assets/ai.png", // Replace with your icon
+    icon: "/assets/ai.png", // Replace with your icon
     link: "https://trailhead.salesforce.com/fr/credentials/certification-detail-print/?searchString=EDlfYRpQoQAi47VIc89pFjz+oFyaH8fvm7KyxDnir3Wqr7Knb/27Kw2qIDVJpsT1", // Link to certification
   },
   {
     title: "Cisco Python Essential 1",
-    icon: "public/assets/python.png", // Replace with your icon
+    icon: "/assets/python.png", // Replace with your icon
     link: "https://www.credly.com/earner/earned/badge/07c956ae-21ac-4bf4-8f82-5df1197c80af", // Link to certification
   },
   {
     title: "AWS Academy Engineering Operations Technicians",
-    icon: "public/assets/aws.png",// Replace with your icon
+    icon: "/assets/aws.png",// Replace with your icon
     link: "https://www.credly.com/badges/42947009-85de-481d-9911-8f36b481599d/linked_in_profile", // Link to certification
   },
   {
     title: "Cisco Introduction to Cybersecurity",
-    icon: "public/assets/cyber.png", // Replace with your icon
+    icon: "/assets/cyber.png", // Replace with your icon
     link: "https://www.credly.com/badges/24c5b04b-b261-4032-903f-055a3c280e4b", // Link to certification
   },
 ];

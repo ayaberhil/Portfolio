@@ -4,8 +4,8 @@ import { styles } from "../styles";
 import "../mycss.scss";
 
 // CV file links (replace with actual links)
-const CV_FRENCH = "public/assets/pdfs/CV_BERHIL_FR.pdf";  // Replace with your actual path
-const CV_ENGLISH = "public/assets/pdfs/CV_BERHIL_ENG.pdf"; // Replace with your actual path
+const CV_FRENCH = "/assets/pdfs/CV_BERHIL_FR.pdf";  // Replace with your actual path
+const CV_ENGLISH = "/assets/pdfs/CV_BERHIL_ENG.pdf"; // Replace with your actual path
 
 const textVariants = {
   initial: {
@@ -99,7 +99,7 @@ const Hero = () => {
 
         {/* Image Container */}
         <div className="imageContainer">
-          <img src="public/assets/aya_svggg.png" alt="Aya's Image" />
+          <img src="/assets/aya_svggg.png" alt="Aya's Image" />
         </div>
       </div>
 
