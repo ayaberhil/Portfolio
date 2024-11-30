@@ -107,23 +107,24 @@ const Hero = () => {
       {isModalOpen && (
         <div className="modal-overlay fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="modal-content bg-white p-6 rounded-lg max-w-md z-20">
-            <h3 className="text-center text-xl font-semibold mb-4">
+            <h3 className="text-center text-xl font-semibold mb-4 text-black">
               Choose CV Language
             </h3>
-            <div className="flex justify-around">
-              <button
-                onClick={() => handleCVDownload("french")}
-                className="bg-blue-500 text-white py-2 px-4 rounded-lg"
-              >
-                French CV
-              </button>
-              <button
-                onClick={() => handleCVDownload("english")}
-                className="bg-green-500 text-white py-2 px-4 rounded-lg"
-              >
-                English CV
-              </button>
-            </div>
+            <div className="flex justify-around space-x-4">
+  <button
+    onClick={() => handleCVDownload("french")}
+    className="mt-5 bg-[#915EFF] text-white py-2 px-6 rounded-full text-lg cursor-pointer"
+  >
+    French
+  </button>
+  <button
+    onClick={() => handleCVDownload("english")}
+    className="mt-5 bg-[#915EFF] text-white py-2 px-6 rounded-full text-lg cursor-pointer"
+  >
+    English
+  </button>
+</div>
+
             <button
               onClick={() => setIsModalOpen(false)}
               className="mt-4 text-gray-500 underline"
