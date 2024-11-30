@@ -84,7 +84,7 @@ const Hero = () => {
 
         {/* Animate "Aya Berhil" text with continuous animation */}
         <motion.div
-          className="slidingTextContainer"
+          className="slidingTextContainer hidden sm:block"
           animate={{
             x: ["-15%", "-110%"], // Moves the text from 0% to -100% and vice versa
           }}
@@ -98,7 +98,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Image Container */}
-        <div className="imageContainer">
+        <div  className="imageContainer hidden sm:block">
           <img src="/assets/aya_svggg.png" alt="Aya's Image" />
         </div>
       </div>
