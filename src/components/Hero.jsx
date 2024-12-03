@@ -98,8 +98,8 @@ const Hero = () => {
         </motion.div>
 
         {/* Image Container */}
-        <div  className="imageContainer hidden sm:block">
-          <img src="/assets/aya_svggg.png" alt="Aya's Image" />
+         <div  className="imageContainer hidden sm:block">
+          <img src="/assets/aya_icon.png" alt="Aya's Image" />
         </div>
       </div>
 
