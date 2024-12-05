@@ -12,20 +12,31 @@ const certifications = [
     icon: "/assets/ai.png", // Replace with your icon
     link: "https://trailhead.salesforce.com/fr/credentials/certification-detail-print/?searchString=EDlfYRpQoQAi47VIc89pFjz+oFyaH8fvm7KyxDnir3Wqr7Knb/27Kw2qIDVJpsT1", // Link to certification
   },
+
+  {
+    title: "AWS Academy Engineering Operations Technicians",
+    icon: "/assets/aws-engin.png",// Replace with your icon
+    link: "https://www.credly.com/badges/42947009-85de-481d-9911-8f36b481599d/linked_in_profile", // Link to certification
+  },
+   {
+    title: "AWS Academy Cloud Security Foundations",
+    icon: "/assets/aws-security.png", // Replace with your icon
+    link: "https://www.credly.com/earner/earned/badge/c6c2db09-7383-4fc8-ba5f-f76c9a9a3f15", // Link to certification
+  },
+  {
+    title: "Cisco Introduction to Cybersecurity",
+    icon: "/assets/cyber.png", // Replace with your icon
+    link: "https://www.credly.com/badges/24c5b04b-b261-4032-903f-055a3c280e4b", // Link to certification
+  },
   {
     title: "Cisco Python Essential 1",
     icon: "/assets/python.png", // Replace with your icon
     link: "https://www.credly.com/earner/earned/badge/07c956ae-21ac-4bf4-8f82-5df1197c80af", // Link to certification
   },
   {
-    title: "AWS Academy Engineering Operations Technicians",
-    icon: "/assets/aws.png",// Replace with your icon
-    link: "https://www.credly.com/badges/42947009-85de-481d-9911-8f36b481599d/linked_in_profile", // Link to certification
-  },
-  {
-    title: "Cisco Introduction to Cybersecurity",
-    icon: "/assets/cyber.png", // Replace with your icon
-    link: "https://www.credly.com/badges/24c5b04b-b261-4032-903f-055a3c280e4b", // Link to certification
+    title: "Cisco Introduction to IoT",
+    icon: "/assets/iot.png", // Replace with your icon
+    link: "https://www.credly.com/earner/earned/badge/1506bcfc-82a0-450b-88d8-802a3057b0dd", // Link to certification
   },
 ];
 
