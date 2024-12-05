@@ -4,8 +4,8 @@ import { styles } from "../styles";
 import "../mycss.scss";
 
 // CV file links (replace with actual links)
-const CV_FRENCH = "/assets/pdfs/CV_BERHIL_FR.pdf";  // Replace with your actual path
-const CV_ENGLISH = "/assets/pdfs/CV_BERHIL_ENG.pdf"; // Replace with your actual path
+const CV_FRENCH = "/assets/pdfs/CV_aya_ber.pdf";  // Replace with your actual path
+const CV_ENGLISH = "/assets/pdfs/CV_aya_ber_ang.pdf"; // Replace with your actual path
 
 const textVariants = {
   initial: {
