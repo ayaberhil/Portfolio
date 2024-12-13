@@ -24,6 +24,11 @@ const certifications = [
     link: "https://www.credly.com/earner/earned/badge/c6c2db09-7383-4fc8-ba5f-f76c9a9a3f15", // Link to certification
   },
   {
+    title: "AWS Academy Cloud Foundations",
+    icon: "/assets/aws-cloud.png", // Replace with your icon
+    link: "https://www.credly.com/earner/earned/badge/fe7f183e-a151-440b-87e9-4a30c7273240", // Link to certification
+  },
+  {
     title: "Cisco Introduction to Cybersecurity",
     icon: "/assets/cyber.png", // Replace with your icon
     link: "https://www.credly.com/badges/24c5b04b-b261-4032-903f-055a3c280e4b", // Link to certification
